@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css"/>
+    <link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Racing Sans One' rel='stylesheet'>
+    <meta charset="UTF-8"
+  </head>
+  <body>
+    <div class="body">
+   <main id="main">
+    <div id="heading">
+      <h1 id="title" class="altar-logo"> ALTAR INDUSTRIES</h1>
+      <h3 class="subheading"><strong>Our history and evolution</strong></h3>
+    </div>
+    <figure id="img-div" > 
+  <!--Add alt image text-->  
+      <img src="https://lh3.googleusercontent.com/gx4YuE-Fe-nNhjFdzv7k7tEzWs-ic-3x7i6nAHQpyxLshjIrztNP9kfQ0gDv1C4E3XBrSdVDFkdpVvZCTF7a55O-K3mKP_Yr_FOTpPNe8mjyuA3u6NqNh0j2V2BfoAPa-7fsriZXlA=w2400" id="image" class="imgcenter" alt="digital painting of a person wearing a VR headset staring over the landscape of mars">
+      <figcaption id="img-caption" class="imgcaption">Artists rendition of our Venture <em>'MARS: A martian Venture'</em>.</figcaption>
+    </figure>
+    <div id="tribute-info">
+      <h3 id="timeline">The evolution of <span class="altar-logo">ALTAR INDUSTRIES</span></h3>
+      <ul>
+        <li><strong class="year">2032</strong> - Our founder, Aidan Innocks, begins working at IdeaHubb.
+        </li>
+        <li><strong class="year">2035</strong> - Our incredible founder discovers an idea for VR holidays through his discussions with IdeaHubb's AI system.
+        </li>
+        <li><strong class="year">2040</strong> - After 5 years of assidious hard work, grueling litigation, and securing the necessary funding, <span class="altar-logo">ALTAR INDUSTRIES</span> is finally announced to the public.
+        </li>
+        <li><strong class="year">2042</strong> - Our first Venture <em>'ISLAND: the remote luxury Venture'</em> is released, to much public excitement.<em> ISLAND</em> remains one of our most popular ventures to date!
+        </li>
+        <li><strong class="year">2043</strong> - Throughout 2043, two more Ventures are released; <em>'SAFARI: An African safari Venture'</em> and <em>'SOUTH: An Antartic Venture'</em>.
+        </li>
+        <li><strong class="year">2044</strong> - The <span class="venture-tech">2<sup>nd</sup> Venture tech</span> is released, making Ventures considerably more incricate. 
+        </li>
+        <li><strong class="year">2046</strong> - We release <span class="venture-tech">3<sup>rd</sup> Venture</span>, which enabled venturers to interact with others in the same Venture. <em>'RETRO: A Venture through the 80s'</em> is also released.
+        </li>
+        <li><strong class="year">2047</strong> - <span class="altar-logo">ALTAR INDUSTRIES</span> announces a major restructure, sparking huge company-wide change, and expanding our offerings to above and beyond. These changes made the <span class="altar-logo">ALTAR INDUSTRIES</span> that you know and love today!
+        </li>
+        <li><strong class="year">2050</strong> - <em>'WEST: A wildwest Venture'</em> and <em>'PROHIBITION: A 1920s Venture'</em> are released alongside <span class="venture-tech">4<sup>th</sup> Venture</span> to celebrate our 10th anniversary.
+        </li>
+        <li><strong class="year">2052</strong> - For it's 10th anniversary, the new, updated <em>ISLAND</em> is revealed. The Venture <em>'BERMUDA: A Bermuda Triangle Venture'</em> is also released.
+        </li>
+        <li><strong class="year">2055</strong> - Our first off earth Venture, <em>'LUNAR: Venture to the moon'</em>, is released alongside 4<sup>th</sup> Venture for our 15th anniversary.
+        </li>
+        <li><strong class="year">2057</strong> - The Venture <em>'VICTORIA: A Victorian-era Venture'</em> is released.
+        </li>
+        <li><strong class="year">2060</strong> - 5 years after the first, our second off earth Venture <em>'MARS: a martian Venture'</em> is released, for our 25th anniversary.
+        </li>
+        <li><strong class="year">2062</strong> - Our Venture <em>'BERMUDA: A Bermuda Triangle Venture'</em> is released. Our much loved Venture <em>South</em> is retired, to make way for new and greater Ventures!
+        </li>
+        <li><strong class="year"> 2063 </strong> <strong>(Current) </strong>- We have just announced the planned updates for our ventures <em>LUNAR</em> and <em>PROHIBITION</em>, to coincide with the launch of 5<sup>th</sup> Venture. We also sadly announced that we will be retiring the Ventures <em>SAFARI</em> and <em>Retro</em> in 2065, to make way for our two new and greater Ventures!
+        </li>
+        <li><strong class="year">2065</strong> - Our two up and coming Ventures, <em>'SATURN: aboard the Starline'</em> and <em>'INSIDE OUR EARTH: A Jules Verne Venture'</em> will be released!
+        </li>
+    </div>
+    <div id="link" class="link">
+      This was made as a project for <a id="tribute-link" target="_blank" href="https://www.freecodecamp.org/learn/">free code camp</a>.
+    </div>
+    </main>
+    </div>
+  </body>
+
+  <!-- <span class="altar-logo">ALTAR INDUSTRIES</span> --!> 
+  <!-- <li><strong></strong> - 
+        </li>--!>
