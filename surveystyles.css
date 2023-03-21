@@ -1,0 +1,49 @@
+ body {
+   background-color: #523F69;
+
+ }
+ .body{
+  background-color: #CACDFC;
+  border-style: solid;
+  border-width: 20px;
+  border-color:#9985B2;
+  border-radius: 7px;
+  font-family: Verdana;
+  padding: 25;
+  font-family: "ubuntu"
+}
+h1,p{
+  text-align: center;
+  color: #333761;
+
+  
+}
+h2{
+  text-align: center;
+  font-family: 'racing sans one';
+  color: #523F69;
+  font-size: 1.8em
+}
+div{
+  padding: 7;
+}
+.submit{
+  margin-right: 45%;
+  margin-left: 45%;
+  border-radius:10px;
+  background-color: #453659;
+  color: #CACDFC;
+  border: 3px solid #9985B2;
+  font-size: 1em;
+ 
+}
+.question{
+  display:block;
+		text-align: center;
+    margin: 10 0 -15 0;
+    font-size: 1.1em
+	
+}
+.customise-disclaimer {
+  font-size: 0.8em
+}
