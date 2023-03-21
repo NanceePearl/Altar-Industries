@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <link rel="stylesheet" href="surveystyles.css">
+    <link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Racing Sans One' rel='stylesheet'>
+  
+    <meta charset="UTF-8">
+    </head>
+ <body>
+   <div class="form">
+   <div class="body">
+     <h2> ALTAR INDUSTRIES</h2>
+   <h1 id="title">Expression of Interest </h1>
+   <p id="description"><em>Register your interest in current and future <em>ALTAR INDUSTRIES</em> ventures!</em></p>
+   <form id="survey-form">
+   <div>
+   <label class="question">Are you currently in the market for a Venture? 
+   </label>
+   <label for="Yes1">
+     <br>
+     <input type="radio" name="are-you" value="Yes" id="Yes1">Yes
+     </label>
+     <br>
+   <label for="No1">
+     <input type="radio" name="are-you" value="No" id="No1">No
+     </label>
+     <br>
+   <label for="Not-sure1">
+     <input type="radio" name="are-you" value="Not-sure" id="Not-sure1">Not sure
+     </label>
+   </div>
+   <div>
+    <label class="question">Which future <em>ALTAR INDUSTRIES</em> Ventures would you like to see first?</label>
+    <br>
+   <label for="Saturn">
+     <input type="radio" name="Saturn" value="Saturn" id="Saturn">SATURN: aboard the Starline
+     </label>
+     <br>
+   <label for="Earth">
+     <input type="radio" name="earth" value="earth" id="earth">INSIDE OUR EARTH: A <em>Jules Verne</em> Venture
+
+     </label>
+   </div>
+   <div>
+<label class="question">Which of the following <em>ALTAR INDUSTRY </em>  Ventures are of interest to you? <br>Please select as many as you'd like!</label>
+<br>
+ <label for="mars">
+   <input type="checkbox" id="mars" name="mars" value="mars">MARS: A martian Venture
+   </label>
+   <br>
+ <label for="west">
+   <input type="checkbox" id="west" name="west" value="west">WEST: A wildwest Venture
+   </label>
+   <br>
+ <label for="victoria">
+   <input type="checkbox" id="victoria" name="victoria" value="victoria">VICTORIA: A Victorian-era Venture
+   </label>
+   <br>
+ <label for="deep">
+   <input type="checkbox" id="deep" name="deep" value="deep">DEEP: A Mariana Trench Venture
+   </label>
+   <br>
+ <label for="bermuda">
+   <input type="checkbox" id="bermuda" name="bermuda" value="bermuda">BERMUDA: A Bermuda Triangle Venture
+   </label>
+   <br>
+ </div> 
+ <div>
+   <label id="customisation" class="question">Please tell us any customisations you'd like to have for your Venture!  </label>
+   <br>
+   <textarea  placeholder="Please write your ideas here"></textarea>
+   <p id="customise-disclaimer" class="customise-disclaimer"><em>Please be aware that all customisations will incur additional costs.
+     Customisations are not available for all Ventures.
+     ALTAR INDUSTRIES accepts no liability for any dissatisfaction, discomfort, distress, or any other negative outcomes that occur due to a customisation. </em></p>
+   </div>
+   <p>Please enter some final infomation before submitting:
+     </p>
+   <div>
+     <label for="name" id="name-label">Name:</label>
+     <input id="name" type="text" required placeholder="Enter your name">
+     <br>
+     <label for="email" id="email-label">Email:</label>
+      <input id="email" type="email" required placeholder="Enter your email">
+      <br>
+      <label for="age" id="number-label">Age (optional):</label>
+    
+      <input id="number" type="number" max="99" min="1" placeholder="Enter your age">
+      </div>
+ <div>
+ <label for="dropdown" id="dropdown-label">Which option best describes your current working role?</label>
+ <select id="dropdown" name="role">
+   <option disabled selected value>Select current role</option>
+   <option value="student">Student</option>
+   <option value="full-time">Full Time</option>
+   <option value="part-time">Part Time</option>
+   <option value="looking">Looking for Work</option>
+   <option value="SAH">Stay at Home</option>
+   <option value="Other">Other</option>
+   </select>
+   </div>
+   <div>
+   <button type="submit" id="submit" class="submit">Submit</button>
+   </div>
+   </div>
+   </div>
+      </form>
+      </body>
